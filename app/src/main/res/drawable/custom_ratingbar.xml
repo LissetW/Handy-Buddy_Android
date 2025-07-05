@@ -1,0 +1,23 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <bitmap
+            android:src="@drawable/ic_star_outline"
+            android:tileMode="repeat" />
+    </item>
+
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <bitmap
+                android:src="@drawable/ic_star_half"
+                android:tileMode="repeat" />
+        </clip>
+    </item>
+
+    <item android:id="@android:id/progress">
+        <clip>
+            <bitmap
+                android:src="@drawable/ic_star_filled"
+                android:tileMode="repeat" />
+        </clip>
+    </item>
+</layer-list>
